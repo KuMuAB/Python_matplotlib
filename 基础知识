@@ -1,0 +1,18 @@
+Pyplot 是 Matplotlib 的子库，提供了和 MATLAB 类似的绘图 API。
+
+Pyplot 是常用的绘图模块，能很方便让用户绘制 2D 图表。
+
+
+设置图片大小
+        plt.figure(figsize=(20,8),dpi = 80)
+        figure 指的是我们的图
+        dpi参数指清晰度
+
+保存到本地
+    plt.savefig('./sig_size.png')   保存图片
+
+设置水印
+
+线条样式
+
+标记特殊点
